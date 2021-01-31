@@ -64,11 +64,16 @@
         <p> <input type="radio" name="continente" value="Antartida"/>Antartida</p>
         <p> <input type="radio" name="continente" value="Oceania"/>Oceania</p>
 
+        <!--Textarea-->
+        <textarea>Ecribe aquí...</textarea><br/>
 
-        <!--Pagina web-->
-        <label for="web">Pagina web:</label>
-        <p><input type="url" name="web" /></p>
-
+        <!--Select-->
+        <select name="peliculas">
+            <option value="La bella y la bestia">La bella y la bestia</option>
+            <option value="La sirenita">La sirenita</option>
+            <option value="Enredados">Enredados</option>
+            <option value="La bella durmiente">La bella durmiente</option>
+        </select>
 
 
         <input type="submit" value="Enviar">
