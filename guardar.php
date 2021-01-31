@@ -1,5 +1,5 @@
 <?php 
 if(isset($_GET['titulo']) && isset($_GET['descripcion'])){
-    echo $_GET['titulo']."<br/>";
-    echo $_GET['descripcion']."<br/>";
+    echo "<h1>".$_GET['titulo']."</h1>";
+    echo "<h2>".$_GET['descripcion']."</h2>";
 }
