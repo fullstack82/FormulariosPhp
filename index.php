@@ -64,7 +64,10 @@
         <p> <input type="radio" name="continente" value="Antartida"/>Antartida</p>
         <p> <input type="radio" name="continente" value="Oceania"/>Oceania</p>
 
-        
+
+        <!--Pagina web-->
+        <label for="web">Pagina web:</label>
+        <p><input type="url" name="web" /></p>
 
 
 
